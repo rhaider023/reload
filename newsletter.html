@@ -15,6 +15,45 @@
         </style>
 
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        
+<style>
+body {font-family: "Roboto", sans-serif;}
+
+form {
+    border: 1px solid #f1f1f1;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 18px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+</style>
+        
 
     </head>
         
@@ -52,6 +91,28 @@
             <h1 class="w3-text-teal">N e w s l e t t e r</h1>
              
               <p>Sign up for </p>
+             
+             
+             <br><br>
+
+                    <form action="/action_page.php">
+                      <div class="container">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <p>Please sign up for our newsletter to get latest information about our products and services </p>
+                      </div>
+
+                      <div class="container" style="background-color:white">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <label>
+                          <input type="checkbox" checked="checked" name="subscribe"> Bi-Weekly Newsletter
+                        </label>
+                      </div>
+
+                      <div class="container">
+                        <input type="submit" value="Subscribe">
+                      </div>
+                    </form>
 
             
              
@@ -67,11 +128,12 @@
              <br>
              
         </div>
-      
+      <!--
         <div class="w3-third w3-container">
             <p class="w3-border w3-padding-small w3-padding-32 w3-center">           
                 <img src="img-4.jpg" class="w3-border" alt="Image 1" style="padding:4px;width:100%"></p>
    	    </div>
+        -->
 
             </div>
 
