@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reload - Appointments </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+        </style>
+
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">        
+        
+            <style>
+                * {box-sizing: border-box;}
+                ul {list-style-type: none;}
+                body {font-family: "Roboto", sans-serif;}
+
+                .month {
+                    padding: 20px 15px;
+                    width: 100%;
+                    background: #3c3c3c;
+                    text-align: center;
+                }
+
+                .month ul {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                .month ul li {
+                    color: white;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+
+                .month .prev {
+                    float: left;
+                    padding-top: 10px;
+                }
+
+                .month .next {
+                    float: right;
+                    padding-top: 10px;
+                }
+
+                .weekdays {
+                    margin: 0;
+                    padding: 10px 0;
+                    background-color: #ddd;
+                }
+
+                .weekdays li {
+                    display: inline-block;
+                    width: 13.6%;
+                    color: #666;
+                    text-align: center;
+                }
+
+                .days {
+                    padding: 10px 0;
+                    background: #eee;
+                    margin: 0;
+                }
+
+                .days li {
+                    list-style-type: none;
+                    display: inline-block;
+                    width: 13.6%;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    font-size:12px;
+                    color: #777;
+                }
+
+                .days li .active {
+                    padding: 5px;
+                    background: #3c3c3c;
+                    color: white !important
+                }
+
+                /* Add media queries for smaller screens */
+                @media screen and (max-width:720px) {
+                    .weekdays li, .days li {width: 13.1%;}
+                }
+
+                @media screen and (max-width: 420px) {
+                    .weekdays li, .days li {width: 12.5%;}
+                    .days li .active {padding: 2px;}
+                }
+
+                @media screen and (max-width: 290px) {
+                    .weekdays li, .days li {width: 12.2%;}
+                }
+                </style>
+        
+
+    </head>
+        
+    <body>
+
+        <!-- insert circle image -->        
+        <div class="w3-container">
+            <br>
+           <a href="index.html">
+                <img src="logo-1.jpg" class="w3-circle" alt="Reload logo" style="width:10%">
+            </a>
+        </div>
+
+        <!-- Top Navbar -->
+        <div class="w3-top">
+          <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)"
+            onclick="w3_open()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-theme-l1"></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+            <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Services</a>
+            <a href="products.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Products</a>
+            <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contact</a>
+            <a href="newsletter.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Newsletter</a>
+            <a href="appointments.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Appointments</a>
+          </div>
+        </div>
+
+        <div class="w3-main" style="margin-left:100px">
+          <div class="w3-row w3-padding-10">
+              
+         <div class="w3-twothird w3-container">
+            <h1 class="w3-text-teal">A p p o i  n t m e n t s</h1>
+            <br>
+                    
+             
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             
+        </div>
+      <!--
+        <div class="w3-third w3-container">
+            <p class="w3-border w3-padding-small w3-padding-32 w3-center">           
+                <img src="img-11.jpg" class="w3-border" alt="Image 1" style="padding:4px;width:100%"></p>
+   	    </div>
+       
+-->
+
+<div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      A P R I L<br>
+      <span style="font-size:18px">2018</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mon</li>
+  <li>Tue</li>
+  <li>Wed</li>
+  <li>Thur</li>
+  <li>Fri</li>
+  <li>Sat</li>
+  <li>Sun</li>
+</ul>
+
+<ul class="days">  
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li><span class="active">4</span></li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+
+</ul>
+
+
+
+            </div>
+
+        <footer id="myFooter">
+            <div class="w3-container w3-theme-l2 w3-padding-32">
+                <center> 
+                    <h6>
+          
+                      <a href="about.html">About</a> &nbsp; | &nbsp;
+                      <a href="services.html">Services</a> &nbsp; | &nbsp;
+                      <a href="products.html">Products</a> &nbsp; |&nbsp;
+                      <a href="team.html">Team</a> &nbsp; | &nbsp;
+                      <a href="contact.html">Contact</a> &nbsp; | &nbsp;
+                      <a href="newsletter.html">Newsletter</a> &nbsp; | &nbsp;
+                      <a href="appointments.html">Appointments</a> &nbsp; | &nbsp;
+                      <a href="facebook.html">Facebook</a> &nbsp; | &nbsp;
+                      <a href="instagram.html">Instagram</a> &nbsp; | &nbsp;
+                      <a href="twitter.html">Twitter</a>
+                    </h6>
+                </center>
+            </div>
+    
+        </footer>
+       
+        </div>
+
+    </body>
+</html>
