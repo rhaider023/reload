@@ -1,122 +1,221 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Reload - Physiotherapy Clinic </title>  
-
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	 <title>Reload - Physiotherapy Clinic </title>
+		
+	    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		
+	<style>
+	      .container {
+		  position: relative;
+		  text-align: center;
+		  color: white;
+	      }
+
+	      .top-right {
+		  position: absolute;
+		  top: 80px;
+		  right: 85px;
+	      }
+
+      </style>
+		
+		
+		
         <style>
             html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-        </style>           
+        </style>    
+		
+
         
-        
-                <style>
-                .fa {
-                  padding: 4px;
-                  font-size: 23px;
-                  width: 35px;
-                  text-align: center;
-                  text-decoration: none;
-                  margin: 5px 2px;
+<!-- Form -->
+
+	<style>
+                body {font-family: "Roboto", sans-serif;}
+
+                form {
+                    border: 3px solid #f1f1f1;
+                    font-family: Roboto;
                 }
 
-                .fa:hover {
-                    opacity: 0.7;
+                .container {
+                    padding: 6px;
+                    background-color: #f1f1f1;
                 }
 
-                .fa-facebook {
-                  background: #3B5998;
-                  color: white;
+                input[type=text], input[type=submit] {
+                    width: 100%;
+                    padding: 12px;
+                    margin: 6px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-sizing: border-box;
                 }
 
-                .fa-twitter {
-                  background: #55ACEE;
-                  color: white;
+                input[type=checkbox] {
+                    margin-top: 16px;
                 }
 
-
-                .fa-instagram {
-                  background: #125688;
-                  color: white;
+                input[type=submit] {
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
                 }
-                </style>
-        
+
+                input[type=submit]:hover {
+                    opacity: 0.8;
+                }
+	</style>
+	
+
+	<style>
+    	div.gallery {
+        margin: 10px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 100px;
+	    }
+
+	    div.gallery:hover {
+		border: 1px solid #777;
+	    }
+
+	    div.gallery img {
+		width: 100%;
+		height: auto;
+	    }
+
+	    div.desc {
+		padding: 12px;
+		text-align: center;
+	    }
+    	</style>
+
+		
+		
+		
+        <!-- For social media icons -->
+	<style>
+	.fa {
+	  padding: 4px;
+	  font-size: 23px;
+	  width: 35px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
+
+	.fa:hover {
+	    opacity: 0.7;
+	}
+
+	.fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	}
+
+	.fa-twitter {
+	  background: #55ACEE;
+	  color: white;
+	}
+
+	.fa-instagram {
+	  background: #125688;
+	  color: white;
+	}
+	</style>
+	
+                
+
+</head>
+<body>
+	
+		<div class="container">
+  			<img src="img-10b.jpg" alt="Header Image" style="width:100%;">
+			<h3><div class="top-right">Reload - Keeping You Moving</h3>
+		</div>	
+	<!--
+		<div class="gallery">
+  		<a href="index.html"><img src="logo-3.jpg" alt="Reload logo" width="50" height="70"></a>
+        	</div>
+	-->
  
-    </head>
-        
-    <body>
 
-        <!-- insert circle image-->    
-        <div class="w3-main" style="margin-left:100px">            
-            <br><br><br>
-            
-            <a href="index.html">
-                <img src="logo-3.jpg" alt="Reload logo" width="100" height="100">           
-            </a>
-                <h6> Keeping You Moving </h6>
-        </div>
-
-        <!-- Top Navbar -->
+	<!-- Top Navbar -->
         <div class="w3-top">
-          <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+          <div class="w3-bar w3-theme w3-top w3-left-align w3-medium">
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)"
-            onclick="w3_open()"><i class="fa fa-bars"></i></a>
+            onclick="w3_open()"><i class="fa fa-bars"></i></a>		  
             <a href="#" class="w3-bar-item w3-button w3-theme-l1"></a>
+		  
             <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+		  
             <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+		  
             <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Services</a>
+		  
             <a href="products.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Products</a>
+		  
             <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Contact</a>
-            <a href="appointments.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Appointments</a>
+		  
+            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+		  
+            <a href="appointments.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Appointments</a>
           </div>
         </div>
-
-        <div class="w3-main" style="margin-left:100px">
-          <div class="w3-row w3-padding-10">
-              
-         <div class="w3-twothird w3-container">
-            <h1 class="w3-text-teal">Reload</h1>
+			
+		</div>		
+			<div class="gallery" style="margin-left:180px">
+  			<a href="index.html"><img src="logo-3.jpg" alt="Reload logo" width="50" height="70"></a>
+        	</div>
+	
+	<br><br><br>
+	
+        <div class="w3-main" style="margin-left:250px">
+		
+          <div class="w3-row w3-padding-10">              
+          	<div class="w3-twothird w3-container">
+            	<h1 class="w3-text-blue">Your health is our priority </h1>
               <p>Reload is a physiotherapist-owned based in Calgary that has as main characteristic the individualized care of our clients. We aim beyond the rehabilitation and treatment of orthopedic injuries.  Injury prevention and technical skills to improve performance are extremely important during the rehabilitation process. At Reload, the client is accompanied throughout the rehabilitation process. Our team of physiotherapists, Pilates instructors, and massage therapists have specialization in orthopedics, sports and high-performance training... <a href="about.html">(more) </a> </p>
         </div>
       
-        <div class="w3-third w3-container">
-            <p class="w3-border w3-padding-small w3-padding-32 w3-center">           
-                <img src="img-1.jpg" class="w3-border" alt="Image 1" style="padding:4px;width:100%"></p>
-   	    </div>
-
-        <div class="w3-row w3-padding-10">
-            <div class="w3-twothird w3-container">
-                <h1 class="w3-text-teal">Services</h1>
-                    <p>Reload is a service-based company that provides physiotherapy, messages therapy and personal training using the Pilates methodology. The company offers options for individual sessions, specific packages for each service or combined packages. Sessions can be purchased online directly from the company's website... <a href="services.html">(more) </a> </p>
-        </div>
-      
-        <div class="w3-third w3-container">
-            <p class="w3-border w3-padding-small w3-padding-32 w3-center">
-                <img src="img-2.jpg" class="w3-border" alt="Image 2" style="padding:4px;width:100%"></p>
-        </div>
-  
-        <div class="w3-row w3-padding-10">
-               <div class="w3-twothird w3-container">
-                    <h1 class="w3-text-teal">Products</h1>
-                        <p>Orthotics, braces, any abnormality in the function of the feet can have consequences such as plantar fasciitis, Achilles tendinitis, bunions, inflammation and falling performance within sports practice or day-to-day activities.  For this, our physiotherapists can indicate the use of orthotics, spacers, and other equipment developed to aid recovery and optimize the clinical evolution of the client... <a href="products.html">(more) </a></p>
-        </div>
-      
-        <div class="w3-third w3-container">
-            <p class="w3-border w3-padding-small w3-padding-32 w3-center">
-                <img src="img-3.jpg" class="w3-border" alt="Image 3" style="padding:4px;width:100%"></p>
-        </div>
     
   </div>
+		
+		 <br>
+                <form action="/action_page.php">
+                  <div class="container">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Get the latest information, new product notifications and exclusive promotions conveniently in your inbox!</p>
+                  </div>
+
+                  <div class="container" style="background-color:white">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <label>
+                      <input type="checkbox" checked="checked" name="subscribe"> Bi-Weekly Newsletter
+                    </label>
+                  </div>
+
+                  <div class="container">
+                    <input type="submit" value="Subscribe">
+                  </div>
+                </form>
+	</div>
+	
+	
+		
+		
+		<br><br><br><br><br><br><br><br>
 
         <footer id="myFooter">
-            <div class="w3-container w3-theme-l2 w3-padding-32">
+            <div class="w3-container w3-theme-l2 w3-padding-25">
                 <center> 
                     <h6>
           
@@ -141,3 +240,5 @@
 
     </body>
 </html>
+
+
